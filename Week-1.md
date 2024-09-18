@@ -37,7 +37,7 @@ Razones para usar Linux
 - Windows
 - Control Total
 - Velocidad
-- Puede ser divertido
+- Es divertido (a veces)
 
 ---
 
@@ -61,10 +61,10 @@ Linux es para todos, no para todo
 
 ---
 
-- Debian <-- Recomendado
-- Arch
-- Mint
-- Fedora
+- [Debian](https://www.debian.org/) <-- Recomendado
+- [Arch](https://archlinux.org/download/)
+- [Mint](https://www.linuxmint.com/download.php)
+- [Fedora](https://fedoraproject.org/)
 
 ---
 
