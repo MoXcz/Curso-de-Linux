@@ -20,4 +20,21 @@ actividad independiente del Club de Programación.
     - Shell / Utilidades
     - Bash / Script
 
-## Semana 2 (Soon)
+## Semana 2
+
+- Introducción a Commandos Básicos
+    - `cat`
+    - `mkdir`
+    - `cd`
+    - `ls`
+    - `echo`
+    - `touch`
+    - `wc`
+    - `rm`
+- Instalación de Programas usando `apt`
+- Introducción a `neovim`
+- Utilidades Extra
+    - `curl`
+    - `xargs`
+    - `date`
+    - `ncal`
