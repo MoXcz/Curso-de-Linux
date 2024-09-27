@@ -1,3 +1,25 @@
+Google Chrome:
+
+```sh
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+google-chrome
+```
+
+---
+
+Visual Studio Code:
+
+```sh
+wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+sudo apt install ./code-latest.deb
+rm code-latest.deb
+code
+```
+
+---
+
 - Shell
 - Programs
 - Utilities
