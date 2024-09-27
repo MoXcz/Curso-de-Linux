@@ -25,12 +25,15 @@ actividad independiente del Club de Programación.
 - Introducción a Commandos Básicos
     - `cat`
     - `mkdir`
+    - `rmdir`
     - `cd`
     - `ls`
     - `echo`
     - `touch`
     - `wc`
     - `rm`
+    - `mv`
+    - `cp`
 - Instalación de Programas usando `apt`
 - Introducción a `neovim`
 - Utilidades Extra
@@ -38,3 +41,4 @@ actividad independiente del Club de Programación.
     - `xargs`
     - `date`
     - `ncal`
+    - `nano`
