@@ -1,3 +1,8 @@
+```sh
+sudo nano /etc/sudoers
+```
+
+---
 Google Chrome:
 
 ```sh
@@ -195,87 +200,3 @@ curl -s https://www.gutenberg.org/cache/epub/10/pg10.txt | gunzip | sed -r 's/\s
 - `sed`. Substituciones (en este caso cambia los espacios en blanco por una nueva linea).
 - `grep`. Filtro (en este caso buscar todas las veces que aparece la palabra *lord*). La opción `-i` hace que la búsqueda sea case-insensitive y la opción `-E` para interpretar los patrones `( | )`.
 - `wc -l`. Contar el numero de lineas (en este caso todas las lineas dicen alguna variación de *lord*)
-
----
-
-`head`. Imprime un numero determinado de lineas/caracteres de un archivo.
-`fold`. Dar formato a texto (*Word-Wrapping* con `-w` y `-s` para no cortar palabras).
-
-```sh
-head -n5 The_Bible.txt
-head -c10 The_Bible.txt
-head -n250 The_Bible.txt | fold -sw 30
-```
-
----
-
-```sh
-echo `date +'%F'`.txt
-echo Hola >> `date +'%F'.txt`
-```
-
----
-
-`.bashrc`:
-
-```sh
-echo Buenas desde `date +%Y`
-```
-
----
-
-Ver los cambios de un archivo (en este caso imprime el tiempo y lo redirige al final del archivo)
-
-```sh
-tail -f hola.txt
-watch -n5 'echo `date +%c` >> hola.txt'
-```
-
----
-
-`xargs`. Copiar el *Standard In* y lo añade al final del siguiente comando.
-
-```sh
-cut -d: -f1 < /etc/passwd | sort | xargs echo
-history | grep xargs
-```
-
----
-
-*Environment Variables* ($PATH). Son variables definidas por scripts y la Shell.
-
-```sh
-export
-echo $USER
-echo $HOME
-var=hola
-echo $var
-export var
-node
-process.env.var
-```
-
----
-
-
-```sh
-N=5
-echo $((N*5))
-echo <hello $USER>
-echo '<Hola $USER>'
-echo "<Hola $USER>"
-echo "<Hola `whoami`b>"
-```
-
----
-
-Siguiente sesión: Scripts
-
-`script_test.sh`
-
-```sh
-$!/usr/bin/evn bash
-
-echo "$(date +'%F.%T') $1" >> "$(date +%F).txt"
-# chmod +x script_test.sh
-```
