@@ -42,3 +42,14 @@ actividad independiente del Club de Programación.
     - `date`
     - `ncal`
     - `nano`
+
+## Semana 3
+
+- Variables de Entorno
+    - `export`
+    - `$PATH`
+- Bash Scripts
+    - `chmod`
+    - Variables
+    - Condicionales
+    - Loops
